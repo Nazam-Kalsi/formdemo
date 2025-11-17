@@ -180,7 +180,7 @@ export default function DynamicLargeForm() {
 
         {/* DOB */}
         <div className="space-y-2 grow">
-          <Label>Date of Birth</Label>
+          <Label>DOB</Label>
           <Input type="date" {...register("dob")} />
           {errors.dob && <p className="text-red-500 text-sm">{errors.dob.message}</p>}
         </div>
